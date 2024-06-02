@@ -19,7 +19,7 @@ const fs = require("fs/promises");
         
       } catch (e) {
         ///We don't have the file we should create it
-        const newFileHandle = await fs.open(path, "w")
+        const newFileHandle = await fs.open(path, "w");
         console.log("A New file is Successfully created.");
         newFileHandle.close();
       }
