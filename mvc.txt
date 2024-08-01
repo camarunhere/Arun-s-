@@ -1,0 +1,6 @@
+MVC stands for Model,View,Controller
+MVC is a way of  structuring our code & files
+Keeps code more modular, reusable & easier to read
+
+Controller is the thing that forms the link between our models and views
+

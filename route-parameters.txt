@@ -1,0 +1,5 @@
+* THe variable parts of the route that may change value 
+//Route parameters are the part of a route that are  variable or that could change localhost:3010/blogs/:id
+                                                                                   localhost:3010/blogs/12112
+                                                                                   localhost:3010/blogs/50
+                                                                                   localhost:3010/blogs/hey

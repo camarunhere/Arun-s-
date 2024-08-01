@@ -1,0 +1,18 @@
+* Mongoose is an ODM library - Object Document Mapping library
+/User model  => User.get(), USer.findById()
+/Blog model  => Blog.deleteOne()
+* The way we generally work with MongoDB and Mongoose is to create schemas and models 
+* In Mongoose We make a schema first
+/Schema defines the structure of a type of data / Document
+   --propeties & property types
+
+   User Schema:                                   Blog Schema:
+> name (string), required                      > title (string), required
+> age (number)                                 > snippet(string), required
+> bio (string), required                       > body(string), required
+                                               > Auto Generated ID (string), required
+
+/Models allow us to communicate with database collections
+
+       Blog Model    get,save,update,delete,etc
+       Blog Schema  -----------------------------> Database Blog Collection

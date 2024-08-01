@@ -1,0 +1,4 @@
+GET requests to get a resource E.g: localhost:3010/blogs, localhost:3010/blogs/create, localhost:3010/blogs/:id  --> routes for requests
+POST requests to create new data (e.g. a new blog) When we click on submit post request is sent E.g: localhost:3010/blogs
+DELETE requests to delete data (e.g. delete a blog) E.g: localhost:3010/blogs/:id 
+PUT requests to update data (e.g. update a blog) E.g: localhost:3010/blogs/:id 
